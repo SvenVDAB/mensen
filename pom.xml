@@ -42,7 +42,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <image>
-                        <name>svenbouwen666/mensen:1.0.0</name>
+                        <name>svenbouwen666/mensen:1.0.1</name>
                     </image>
                 </configuration>
             </plugin>
