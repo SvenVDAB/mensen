@@ -13,7 +13,7 @@ public class IndexController {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
     @GetMapping("/")
     List<Mens> findAll() {
-        logger.info("GET request naar alle producten");
+        logger.info("GET request naar alle mensen");
         return List.of(
                 new Mens(1, "James", "Gosling"),
                 new Mens(1, "Brian", "Goetz"),
